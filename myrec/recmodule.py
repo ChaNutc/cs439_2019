@@ -9,8 +9,7 @@ class Rectangle(object):
         return self.w*self.h
     def __str__(self):
         return f'Rectangle width = {self.w} heigth = {self.h} area = {self.area()}'
-class Square(Regtangle):
+class Square(Rectangle):
     def __init__(self,w=0):
-        
         self.w = w
         self.h = w
